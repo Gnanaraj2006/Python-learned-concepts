@@ -48,8 +48,23 @@ print(name*3)
 
 #Type Casting = convert the data type of a value to another datatype.
 
+x = 1
+y = 2.0
+z = "3"
+
+print("x is a number "+str(x)) #int
+print("y is a number "+str(y)) #float
+print("z is a number "+str(z)) #string
 
 
+name = input("what is your name :")
+age= int(input("what is your age :"))
+height=float(input("What is you height :"))
+
+print("Hello",name)
+age = age + 1
+print("your are "+str(age)+" years old")
+print("you are "+str(height)+"cm taller")
 
 
 
